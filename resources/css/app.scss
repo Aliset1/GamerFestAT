@@ -2,5 +2,26 @@
 @import 'bootstrap/scss/bootstrap';
 
 .logo {
-    width: 30px!important;
+    width: 50px!important;
+    margin: 0;
+}
+//Sseparacion entre la palabnra y la linea
+.opcionesNav a{
+    text-decoration-line: underline!important;
+    text-decoration-style:solid !important;
+    text-decoration-color: #fff !important;
+    line-height: 20px !important;
+}
+.barra a {
+    color: #fff!important;
+}
+
+.barra {
+    background-color: #312e2e!important;
+    padding: 2px!important;
+    margin: 0!important;
+}
+.slider img{
+    height: 400px !important;
+    object-fit: cover !important;
 }
